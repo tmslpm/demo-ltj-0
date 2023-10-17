@@ -1,0 +1,110 @@
+{
+  "requirements": [
+    [
+      "awesomedungeon:abandoned_oak_palace",
+      "awesomedungeon:better_default_jungle_temple",
+      "awesomedungeon:desert_temple_husk",
+      "awesomedungeon:jungle_giant_tree",
+      "awesomedungeon:mushroom_abandonned",
+      "awesomedungeon:swamp_big_temple",
+      "awesomedungeon:the_usine",
+      "awesomedungeon:the_ztower",
+      "awesomedungeon:witch_castle"
+    ]
+  ],
+  "criteria": {
+    "awesomedungeon:mushroom_abandonned": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "awesomedungeon:mushroom_abandonned",
+          "dimension": "minecraft:overworld"
+        }
+      }
+    },
+    "awesomedungeon:the_usine": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "awesomedungeon:the_usine",
+          "dimension": "minecraft:overworld"
+        }
+      }
+    },
+    "awesomedungeon:desert_temple_husk": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "awesomedungeon:desert_temple_husk",
+          "dimension": "minecraft:overworld"
+        }
+      }
+    },
+    "awesomedungeon:swamp_big_temple": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "awesomedungeon:swamp_big_temple",
+          "dimension": "minecraft:overworld"
+        }
+      }
+    },
+    "awesomedungeon:jungle_giant_tree": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "awesomedungeon:giant_jungle_tree",
+          "dimension": "minecraft:overworld"
+        }
+      }
+    },
+    "awesomedungeon:the_ztower": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "awesomedungeon:the_ztower",
+          "dimension": "minecraft:overworld"
+        }
+      }
+    },
+    "awesomedungeon:witch_castle": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "awesomedungeon:witch_castle",
+          "dimension": "minecraft:overworld"
+        }
+      }
+    },
+    "awesomedungeon:better_default_jungle_temple": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "awesomedungeon:default_jungle_temple",
+          "dimension": "minecraft:overworld"
+        }
+      }
+    },
+    "awesomedungeon:abandoned_oak_palace": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "feature": "awesomedungeon:oak_palace",
+          "dimension": "minecraft:overworld"
+        }
+      }
+    }
+  },
+  "display": {
+    "show_toast": false,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "icon": {
+      "item": "minecraft:writable_book"
+    },
+    "description": "Discover Awesome Dungeon",
+    "title": "Awesome Dungeon",
+    "announce_to_chat": false,
+    "frame": "task"
+  }
+}

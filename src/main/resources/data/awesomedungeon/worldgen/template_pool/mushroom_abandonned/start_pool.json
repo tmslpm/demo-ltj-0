@@ -1,0 +1,1 @@
+{"name":"awesomedungeon:mushroom_abandonned/start_pool","fallback":"minecraft:empty","elements":[{"weight":1,"element":{"location":"awesomedungeon:mushroom_abandonned","processors":"minecraft:empty","projection":"rigid","element_type":"minecraft:single_pool_element"}}]}
